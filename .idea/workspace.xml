@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99369009-3d51-4df7-a3eb-b62d034b4fe3" name="Changes" comment="Playwright API methods" />
+    <list default="true" id="99369009-3d51-4df7-a3eb-b62d034b4fe3" name="Changes" comment="Playwright API methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wellsfargo.api.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetAPICallapiResponseDispose">
+  <component name="RunManager" selected="TestNG.POSTAPICallwithJSONFileTest">
     <configuration name="GetAPICall" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Java_Project" />
       <extension name="coverage">
@@ -70,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAPICall.getUsersAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetAPICallapiHeaderArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Java_Project" />
       <extension name="coverage">
         <pattern>
@@ -79,9 +81,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.GetAPICall" />
-      <option name="METHOD_NAME" value="getUsersAPITest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.GetAPICallapiHeaderArray" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -105,11 +106,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="POSTAPICallTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright_Java_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wellsfargo.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.POSTAPICallTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POSTAPICallwithJSONFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright_Java_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wellsfargo.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.POSTAPICallwithJSONFileTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.POSTAPICallwithJSONFileTest" />
+        <item itemvalue="TestNG.POSTAPICallTest" />
+        <item itemvalue="TestNG.GetAPICallapiHeaderArray" />
         <item itemvalue="TestNG.GetAPICallapiResponseDispose" />
         <item itemvalue="TestNG.GetAPICall" />
-        <item itemvalue="TestNG.GetAPICall.getUsersAPITest" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1762672600992</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Playwright API methods">
+      <created>1762673148159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762673148159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
