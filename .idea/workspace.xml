@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99369009-3d51-4df7-a3eb-b62d034b4fe3" name="Changes" comment="Playwright API methods">
+    <list default="true" id="99369009-3d51-4df7-a3eb-b62d034b4fe3" name="Changes" comment="Post methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +55,17 @@
       <recent name="com.wellsfargo.api.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.POSTAPICallwithJSONFileTest">
-    <configuration name="GetAPICall" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BookingTest.BookingDeleteAPIResponseTest">
+    <configuration name="AuthToken" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Java_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wellsfargo.api.tests.*" />
+          <option name="PATTERN" value="com.wellsfargo.api.tests.booking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.GetAPICall" />
+      <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests.booking" />
+      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.booking.AuthToken" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -72,16 +73,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAPICallapiHeaderArray" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Java_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wellsfargo.api.tests.*" />
+          <option name="PATTERN" value="com.wellsfargo.api.tests.booking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.GetAPICallapiHeaderArray" />
+      <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests.booking" />
+      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.booking.BookingTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -89,7 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAPICallapiResponseDispose" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest.BookingDeleteAPIResponseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright_Java_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wellsfargo.api.tests.booking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests.booking" />
+      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.booking.BookingTest" />
+      <option name="METHOD_NAME" value="BookingDeleteAPIResponseTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DELETEAPICall" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Java_Project" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +117,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.GetAPICallapiResponseDispose" />
+      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.DELETEAPICall" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -106,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="POSTAPICallTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PUTAPICallPOJOLombok" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Java_Project" />
       <extension name="coverage">
         <pattern>
@@ -115,24 +134,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.POSTAPICallTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="POSTAPICallwithJSONFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Playwright_Java_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wellsfargo.api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wellsfargo.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.POSTAPICallwithJSONFileTest" />
+      <option name="MAIN_CLASS_NAME" value="com.wellsfargo.api.tests.PUTAPICallPOJOLombok" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.POSTAPICallwithJSONFileTest" />
-        <item itemvalue="TestNG.POSTAPICallTest" />
-        <item itemvalue="TestNG.GetAPICallapiHeaderArray" />
-        <item itemvalue="TestNG.GetAPICallapiResponseDispose" />
-        <item itemvalue="TestNG.GetAPICall" />
+        <item itemvalue="TestNG.BookingTest.BookingDeleteAPIResponseTest" />
+        <item itemvalue="TestNG.BookingTest" />
+        <item itemvalue="TestNG.AuthToken" />
+        <item itemvalue="TestNG.DELETEAPICall" />
+        <item itemvalue="TestNG.PUTAPICallPOJOLombok" />
       </list>
     </recent_temporary>
   </component>
@@ -173,11 +175,19 @@
       <option name="project" value="LOCAL" />
       <updated>1762673148159</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Post methods">
+      <created>1762946319910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762946319910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Playwright API methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Playwright API methods" />
+    <MESSAGE value="Post methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post methods" />
   </component>
 </project>
